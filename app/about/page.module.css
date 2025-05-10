@@ -1,0 +1,25 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.historyList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.historyList li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+}
